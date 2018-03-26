@@ -1,0 +1,182 @@
+.header{
+    background-color: #dbdbdb;
+    height: 230px;
+}
+.header div a img{
+    margin-left: 80px;
+}
+.RightInfoBar ul li {
+    list-style-type: none;
+    color: #767676;
+    font-size: 30px;
+}
+.RightInfoBar ul li a{
+    color: #767676;
+    text-decoration: none;
+    border-bottom: 1px dashed #767676;
+    margin-left: 17px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.RightInfoBar ul li a:hover{
+    border-bottom: 1px solid #767676;
+}
+.MainNav{
+    background-color: #777777;
+    height: 80px;
+    }
+.MainNav div div ul li{
+    list-style-type: none;
+}
+.MainNav div div ul li, .MainNav div div ul li a{
+    color: #fff;
+    font-size: 22px;
+    margin-right: 15px;
+}
+
+.breadcrumb {
+    background-color: #ffffff;
+    border: none;
+    height: 7px;
+    padding: 0;
+}
+.breadcrumb li a{
+    color: #757575;
+}
+.card{
+    border: none;
+    background-color: #ffffff;
+}
+.card-header{
+    border: none;
+    background-color: #ffffff;
+}
+.dropdown1, .dropdown2 , .dropdown3 {
+    font-size: 20px;
+    color: #757575;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+
+}
+.dropdown1:active, .dropdown2:active , .dropdown3:active{
+    text-decoration: underline;
+}
+.dropdown1:hover, .dropdown2:hover , .dropdown3:hover{
+
+}
+.list1, .list2, .list3 {
+    display: flex;
+    flex-direction: column;
+}
+.list1 a, .list2 a, .list3 a {
+    color: #757575;
+}
+.pricelist{
+    padding-top: 110px;
+}
+
+.MainContentItems ul li{
+    list-style-type: none;
+    width: 250px;
+    height: 380px;
+    float: left;
+    background-color: #dbdbdb;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+.mainContentItemImg {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.mainContentItems ul li a div {
+    width: 100%;
+}
+
+.textItem{
+    height: 77px;
+    margin-left: 21px;
+    margin-top: 21px;
+}
+.price{
+    font-size: 30px;
+    float: left;
+   width: 200px;
+    padding-left: 18px;
+    padding-bottom: 5px;
+
+}
+.cartIcon{
+   padding-top: 10px;
+}
+.pagination li a{
+    color: #757575;;
+}
+.page-link{
+    color: black;
+    font-weight: bold;
+}
+.bottomText .row{
+    border-top: 2px solid #767676;
+}
+.bottomText div div div div{
+    float: left;
+    width: 40%;
+    margin-left: 40px;
+}
+.footer{
+    background-color: #757575;
+    color: #fff;
+    }
+
+.footer div div ul li, .footer div div ul li a{
+    list-style-type: none;
+    color: #fff;
+}
+
+@media screen and (max-width: 992px) {
+
+    .header div a img{
+        margin-left: 0;
+        width: 220px;
+        height: 75px;
+    }
+    .RightInfoBar ul li {
+        font-size: 20px;
+        text-align: right;
+    }
+    .RightInfoBar ul li a{
+        font-size: 16px;
+        padding-right: 20px;
+    }
+    .bottomText .row .col-lg-5 div{
+        width: 100%;
+    }
+    .MainNav div div ul li a{
+        font-size: 14px;
+        margin-right: 4px;
+    }
+
+}
+@media screen and (max-width: 768px){
+    .MainNav div div ul li, .MainNav div div ul li a{
+    }
+}
+@media screen and (max-width: 576px){
+    .pricelist{
+        padding-top: 0;
+    }
+}
+@media screen and (max-width: 436px) {
+    .RightInfoBar ul li {
+        font-size: 14px;
+    }
+
+    .RightInfoBar ul li a {
+        font-size: 12px;
+    }
+    .MainNav div div ul li, .MainNav div div ul li a {
+        font-size: 12px;
+        margin-right: 9px;
+    }
+}
