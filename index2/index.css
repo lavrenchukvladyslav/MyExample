@@ -1,0 +1,235 @@
+@font-face {
+    font-family: HelveticaLT;
+    src: url('fonts/Helvetica LT Condensed Medium.ttf');
+}
+@font-face {
+    font-family: HelveticaLTtd-bold;
+    src: url(fonts/HelveticaLTStd-Bold.otf);
+}
+@font-face {
+    font-family: HelveticaLTStd-Light;
+    src: url(fonts/HelveticaLTStd-Light.otf);
+}
+
+@font-face {
+    font-family: HelveticaLTStd-Roman;
+    src: url(fonts/HelveticaLTStd-Roman.otf);
+}
+
+body{
+    margin: 0;
+}
+.wrapper{
+    width: 1280px;
+    height:auto;
+    margin-right: auto;
+    margin-left: auto;
+
+
+}
+header{
+    width:1280px;
+    height: 87px;
+    background-color: #4c96a2;
+
+}
+#logo{
+    display: flex;
+    float: left;
+    padding-right: 322px;
+
+}
+nav{
+    display: flex;
+    font-family: HelveticaLT, sans-serif;
+}
+nav span{
+    padding-right: 22px;
+    padding-top: 37px;
+    align-content:right;
+    color: #ffffff;
+    font-size: 6.3mm;
+    font-family: HelveticaLT, sans-serif;
+}
+nav span a{
+    color: #ffffff;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+/* слайдер */
+.slider {
+    z-index: 9;
+    width: 1280px;
+    height: 473px;
+    overflow: hidden;
+    margin: 0 0 7px;
+    position: relative;
+
+}
+.slider ul,
+.slider li {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+.slider ul {
+    width: 9999px;
+}
+.slider ul li {
+    list-style-type: none;
+    float: left;
+    width: 1280px;
+    height: 473px;
+}
+.slider .nav {
+    position: absolute;
+    left: 596px;
+    bottom: 32px;
+}
+.slider .nav span {
+    opacity: 0.9;
+    background: #fff;
+    margin: 0 13px 0 0;
+    width: 8px;
+    height: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+    overflow: hidden;
+    display: block;
+    float: left;
+}
+.slider .nav span.on {
+    background: #69728c;
+}
+.centerBigText{
+    padding-top: 85px;
+    text-align: center;
+    color: #4c505d;
+    font-family: HelveticaLTStd-Roman, sans-serif;
+}
+.centerText{
+    font-family: HelveticaLTStd-Roman, sans-serif;
+    text-align: center;
+    color: #4c505d;
+    padding-top: 46px;
+
+}
+#forflex{
+    padding-top:73px ;
+    width: 416px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 428px;
+    padding-bottom: 81px;
+}
+.colorFone{
+    height: 468px;
+    width: 1280px;
+    background-color: #00d089;
+}
+
+
+.colorFone img{
+    padding-left: 576px;
+    padding-top: 95px;
+
+}
+.colorFone ul{
+    padding-left: 800px;
+}
+.name{
+    font-family: HelveticaLTtd-bold, sans-serif;
+    font-size: 26px;
+    color: #e4e4e4;
+    position: relative;
+    top: -155px;
+    left: -47px;
+}
+.quotes{
+    font-family: HelveticaLTtd-bold, sans-serif;
+    font-size: 338.37px;
+    color: #58daa5;
+    position: relative;
+    left: -67px;
+    top: -230px;
+}
+.bottomText{
+    color: white;
+    font-family: HelveticaLTStd-Light, sans-serif;
+    text-align: left;
+    position: relative;
+    top: -417px;
+    padding-left: 212px;
+    line-height: 30px;
+}
+input{
+    width: 276px;
+    height: 32px;
+    margin-bottom: 15px;
+    border: solid 1px #d8d8d8;
+}
+textarea{
+    width: 274px;
+    height: 82px;
+    margin-bottom: 33px;
+    border: solid 1px #d8d8d8;
+    resize: none;
+
+}
+#registrationForm{
+    height: 438px;
+    width: 438px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    opacity: 0.85;
+    border-radius: 438px;
+    border: solid 1px black;
+    position: relative;
+    margin-bottom: -445px;
+    right:-423px;
+    bottom:476px;
+
+}
+#registrationForm input{
+    padding-left: 15px;
+}
+.submitButton{
+    background-repeat: no-repeat;
+    background-color: #fff;
+    border: none;
+    display:block;
+    height:67px;
+    width: 66px;
+    margin-left: 100px;
+
+}
+.regList{
+    position: relative;
+    right:-81px;
+    bottom:-112px;
+}
+::-webkit-input-placeholder {color:#b4b5b9;font-family: HelveticaLTStd-Light, sans-serif;}
+::-moz-placeholder          {color:#b4b5b9;font-family: HelveticaLTStd-Light, sans-serif;}/* Firefox 19+ */
+:-moz-placeholder           {color:#b4b5b9;font-family: HelveticaLTStd-Light, sans-serif;}/* Firefox 18- */
+:-ms-input-placeholder      {color:#b4b5b9;font-family: HelveticaLTStd-Light, sans-serif;}
+#registrationForm textarea{
+    padding-left: 15px;
+    padding-top: 9px;
+}
+footer{
+    position: relative;
+    width: 1280px;
+    height: 40px;
+    background-color: #00d089;
+}
+footer div{
+    color: white;
+    font-family:HelveticaLT, sans-serif;
+    text-align: center;
+    padding-top: 8px;
+}
