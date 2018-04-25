@@ -1,0 +1,532 @@
+@font-face {
+    font-family: Clear Sans regular;
+    src: url('fonts/ClearSans-regular.ttf');
+}
+@font-face {
+    font-family: Clear Sans bold;
+    src: url('fonts/ClearSans-bold.ttf');
+}
+.boldText{
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+}
+
+body{
+    width: 100%;
+    margin: 0;
+    text-align: center;
+}
+.container{
+    margin-left: 375px;
+    margin-right: 379px;
+}
+header ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+.headerInfo{
+    padding-left: 375px;
+    padding-right: 379px;
+    height: 106px;
+    background-color: rgba(0, 0, 0, 0.05);
+    margin-top:0;
+}
+.headerInfo li{
+    padding-top: 17px;
+}
+.headerInfo li div{
+    font-family: Clear Sans regular, sans-serif;
+    line-height: normal;
+    font-size: 16px;
+    text-align: center;
+    color: #3A4047;
+}
+.headerInfo li div br {
+    padding-top: 11px;
+}
+.headerInfo li a{
+    font-family: Clear Sans regular, sans-serif;
+    line-height: normal;
+    font-size: 14px;
+    text-align: right;
+    text-decoration-line: underline;
+    color: #3A4047;
+}
+.headerInfo li a:hover {
+    color:#1AB0CE;;
+}
+
+
+.headerInfo li ul {
+    display: flex;
+}
+.headerInfo li ul li{
+    flex-direction: column;
+}
+.emailcontacts{
+    padding-left: 65px;
+}
+.contacts{
+    margin-top: 22px;
+}
+.contacts a{
+    padding: 21px;
+}
+
+.contacts img{
+    float: left;
+    margin-right: 21px;
+}
+.contacts div{
+    float: left;
+    padding-right: 10px;
+}
+.dropdown{
+    border: none;
+    background-color: #f2f2f2;
+    width: 30px;
+}
+.phones{
+    font-family: Clear Sans regular, sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 219px;
+    height: 167px;
+    background-color: white;
+    position: relative;
+
+    margin-top: 10px;
+}
+.phones::after {
+    content: '';
+    position: absolute;
+    right: 25px; top: -20px;
+    border: 10px solid transparent;
+    border-bottom: 12px solid white;
+}
+.inCartNumber{
+    background-color: #1AB0CE;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    position: relative;
+    top: -60px;
+    left: 35px;
+}
+.inCartNumber span{
+    font-family: Clear Sans regular, sans-serif;
+    color: white;
+}
+header nav{
+    font-family: Clear Sans bold, sans-serif;
+    line-height: normal;
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+header nav ul li{
+    padding-left: 6%;
+
+}
+header nav ul li a{
+    text-decoration: none;
+    color: #3A4047;
+    font-family: Clear Sans bold, sans-serif;
+    line-height: normal;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+}
+header nav ul li a:hover {
+    color:#1AB0CE;;
+}
+header nav ul li button{
+    border: none;
+    background-color: #fff;
+}
+
+.mainImg{
+    background-image: url("img/Rectangle.png");
+    height: auto;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.mainImg ul li h1{
+    font-family: Clear Sans bold, sans-serif;
+    line-height: normal;
+    font-size: 57px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 160px;
+    margin: 0;
+    font-weight: bold;
+
+}
+.mainImg ul li h3{
+    font-family: Clear Sans regular, sans-serif;
+    line-height: normal;
+    font-size: 24px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+.mainImg ul li button{
+    background: #1AB0CE;
+    border-radius: 2px;
+    border: none;
+    color: #fff;
+    font-family: Clear Sans regular, sans-serif;
+    font-Size: 16px;
+    width: 200px;
+    height: 48px;
+
+}
+.products h2{
+    font-family: Clear Sans regular, sans-serif;
+    line-height: normal;
+    font-size: 36px;
+    text-align: center;
+    color: #3A4047;
+}
+.products ul{
+    float: left;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+.products ul li{
+    float: left;
+    width: 340px;
+    height: 291px;
+    background: #FFFFFF;
+    border: 1px solid #DCE1E6;
+    box-sizing: border-box;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+    margin-right: 30px;
+    text-align: center;
+}
+.products  ul li img{
+    float: left;
+    margin-top: 25px;
+    margin-left: 29px;
+}
+.products  ul li table tr td h4{
+    font-family: Clear Sans bold, sans-serif;
+    line-height: normal;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #3A4047;
+}
+.products ul li table {
+    width: 210px;
+    height: 200px;
+    margin-left: 120px;
+    margin-top: 0;
+}
+.products ul li table tr td {
+    padding-bottom: 10px;
+    text-align: left;
+}
+.products ul li table tr td a {
+    font-family: Clear Sans regular, sans-serif;
+    line-height: 16px;
+    font-size: 14px;
+    color: #3A4047;
+    text-decoration: none;
+}
+.products ul li table tr td a:hover {
+    color:#1AB0CE;;
+}
+.aboutUs{
+    margin-top: 360px;
+}
+.aboutUs h2{
+    font-family: Clear Sans regular, sans-serif;
+    line-height: normal;
+    font-size: 36px;
+    text-align: center;
+    color: #3A4047;
+}
+.aboutUs h3{
+    font-family: Clear Sans regular, sans-serif;
+    line-height: normal;
+    font-size: 24px;
+    text-align: center;
+    color: #3A4047;
+}
+.aboutUs div{
+    font-family: Clear Sans regular, sans-serif;
+    line-height: normal;
+    font-size: 14px;
+    text-align: justify;
+    color: #3A4047;
+}
+.news{
+    margin-top: 20px;
+
+    padding-bottom: 50px;
+    padding-left: 20px;
+}
+.news h2{
+    font-family: Clear Sans regular, sans-serif;
+    line-height: normal;
+    font-size: 36px;
+    text-align: center;
+    color: #3A4047;
+
+}
+.newsSection{
+    display: flex;
+    justify-content: space-between;
+}
+.newsSection article{
+    width: 366px;
+    height: 110px;
+    padding-top: 30px;
+}
+.newsSection article div{
+    font-family: Clear Sans regular, sans-serif;
+    line-height: normal;
+    font-size: 14px;
+    text-align: center;
+    color: #BEC7D1;
+}
+.newsSection article a{
+    font-family: Clear Sans regular, sans-serif;
+    line-height: normal;
+    font-size: 16px;
+    text-align: center;
+    color: #3A4047;
+    text-decoration: none;
+
+}
+.newsSection article:hover {
+    border-top: 1px solid #1AB0CE;
+    cursor: pointer;
+    height: 110px;
+    width: 366px;
+
+}
+.newsSection article a:hover{
+    color: #1AB0CE;
+    text-decoration: underline;
+}
+.news button{
+    font-family: Clear Sans regular, sans-serif;
+    line-height: normal;
+    font-size: 14px;
+    text-align: center;
+    color: #1AB0CE;
+    background: #FFFFFF;
+    border: 1px solid #1AB0CE;
+    box-sizing: border-box;
+    border-radius: 2px;
+    width: 192px;
+    height: 32px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    padding-left: 375px;
+    padding-right: 379px;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+footer ul{
+        padding: 6px;
+}
+footer ul li{
+    text-align: left;
+    padding-bottom: 10px;
+    font-family: Clear Sans regular, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 21px;
+    font-size: 14px;
+    color: #3A4047;
+}
+footer ul li a{
+    font-family: Clear Sans regular, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 21px;
+    font-size: 14px;
+    text-align: center;
+    color: #3A4047;
+}
+footer ul li a:hover {
+    color:#1AB0CE;;
+}
+.contactsFooter{
+
+}
+.contactsFooter a{
+    padding: 21px;
+}
+.contactsFooter img{
+    float: left;
+    margin-right: 21px;
+}
+.contactsFooter div{
+    float: left;
+    padding-right: 10px;
+}
+.dropdown2{
+    border: none;
+    background-color: #f2f2f2;
+    width: 30px;
+}
+.phones2{
+    display: flex;
+    flex-direction: column;
+    width: 219px;
+    height: 167px;
+    background-color: white;
+    position: relative;
+    margin-top: 10px;
+    top: -100px;
+    right: -15px;
+
+}
+.phones2 li{
+    vertical-align: -6px;
+}
+.phones2 li img{
+    padding-right: 5px;
+    float: left;
+}
+
+.phones2::after {
+    content: '';
+    position: absolute;
+    right: -0; top: -15px;
+    border: 10px solid transparent;
+    border-bottom: 12px solid white;
+}
+.glyanec{
+    padding-top: 15px;
+}
+.glyanec a{
+    text-decoration: none;
+}
+
+.callMeLater1{
+    position: relative;
+    bottom: -38px;
+    left: 561px;
+    height: 0;
+    width: 0;
+
+
+}
+.callMeLater2{
+    position: relative;
+    bottom: -159px;
+    left: -37px;
+    height: 0;
+    width: 0;
+}
+@media screen and (max-width: 1920px){
+    header nav{
+        padding-left: 375px;
+        padding-right: 379px;
+    }
+
+}
+
+@media screen and (max-width: 1650px){
+    .headerInfo{
+        padding-left: 250px;
+        padding-right: 300px;
+    }
+    header nav{
+        padding-left: 110px;
+        padding-right: 0;
+    }
+    .container{
+        margin-left: 300px;
+        margin-right: 300px;
+    }
+
+    footer{
+        padding-left: 150px;
+        padding-right: 100px;
+    }
+}
+@media screen and (max-width: 1492px){
+    .headerInfo{
+        padding-left: 150px;
+        padding-right: 200px;
+    }
+    header nav{
+        padding-left: 10px;
+        padding-right: 100px;
+    }
+    .container{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    footer{
+        padding-left: 150px;
+        padding-right: 200px;
+    }
+}
+@media screen and (max-width: 1285px){
+    .headerInfo{
+        padding-left: 100px;
+        padding-right: 150px;
+    }
+    header nav{
+        padding-left: 10px;
+        padding-right: 100px;
+    }
+
+
+    footer{
+        padding-left: 100px;
+        padding-right: 150px;
+    }
+}
+@media screen and (max-width: 1180px){
+    .headerInfo{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    header nav{
+        padding-left: 10px;
+        padding-right: 100px;
+    }
+    footer{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+@media screen and (max-width: 1130px){
+    .headerInfo{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    header nav{
+        padding-left: 10px;
+        padding-right: 50px;
+    }
+    footer{
+        padding-left: 25px;
+        padding-right: 50px;
+    }
+    .headerInfo li div{
+        font-size: 14px;
+    }
+    .container{
+        margin-left: 220px;
+        margin-right: 100px;
+    }
+}
